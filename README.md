@@ -2,11 +2,11 @@
                                                                Pet Society
 Članovi tima:
 
-1.Nađa Žilić
+1. Nađa Žilić
 
-2.Adna Tucak
+2. Adna Tucak
 
-3.Mirza Muharemović
+3. Mirza Muharemović
 
 
 Opis teme:
