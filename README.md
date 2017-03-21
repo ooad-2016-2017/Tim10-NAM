@@ -74,14 +74,23 @@ Omogućena je komunikacija između uposlenika i klijenata pomoću messengera.
 Funkcionalnosti:
 
 •	Mogućnost prodaje opreme za ljubimce
+
 •	Mogućnost online prodaje
+
 •	Mogućnost lakše evidencije asortimana pet shopa
+
 •	Mogućnost online zakazivanja pregleda 
+
 •	Mogućnost komunikacije sa veterinarom
+
 •	Mogućnost evidencije pregleda i pacijenata na jako jednostavan način
+
 •	Mogućnost prijave sa različitim privilegijama (veterinar,prodavač,medicinska sestra..)
+
 •	Mogućnost registrovanja klijenata (članska kartica, verifikacija pomoću maila)
+
 •	Mogućnost registrovanja ljubimaca
+
 •	Mogućnost fotografisanja ljubimaca
 
 Akteri:
