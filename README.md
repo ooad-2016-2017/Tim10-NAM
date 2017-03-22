@@ -2,9 +2,10 @@
 <p align = "center">
 <img src = "http://vignette1.wikia.nocookie.net/logopedia/images/2/23/Pet-society-logo.png/revision/latest?cb=20110817212915">
 </p>
-Članovi tima:
 
-1. Nađa Žilić
+**Članovi tima:**
+
+1. Nađa Žilić :information_desk_person:
 
 2. Adna Tucak
 
