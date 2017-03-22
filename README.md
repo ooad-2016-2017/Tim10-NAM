@@ -5,11 +5,11 @@
 
 **Članovi tima:**
 
-1. Nađa Žilić :information_desk_person:
+1. Nađa Žilić :smile:
 
-2. Adna Tucak
+2. Adna Tucak :smile:
 
-3. Mirza Muharemović
+3. Mirza Muharemović :smile:
 
 
 ## Opis teme:
