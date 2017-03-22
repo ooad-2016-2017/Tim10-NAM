@@ -1,6 +1,6 @@
 # Tim10-NAM
 <p align = "center">
-<img src = "http://logos.wikia.com/wiki/File:Pet-society-logo.png">
+<img src = "http://vignette1.wikia.nocookie.net/logopedia/images/2/23/Pet-society-logo.png/revision/latest?cb=20110817212915">
 </p>
 Članovi tima:
 
