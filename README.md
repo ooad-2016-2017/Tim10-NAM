@@ -11,7 +11,7 @@
 3. Mirza Muharemović
 
 
-Opis teme:
+# Opis teme:
 
 Pet Society je sistem koji pomaže u poslovanju veterinarske stanice u sklopu koje se nalazi pet shop. 
 Sistem je osmišljen tako da odgovori na zadane zahtjeve vlasnika: 
@@ -23,13 +23,13 @@ Sistem je osmišljen tako da odgovori na zadane zahtjeve vlasnika:
 Dakle, glavni cilj ovog sistema jeste da omogući klijentima zakazivanje pregleda za ljubimce, te kupovinu u pet shopu u elektronskom obliku. Pored toga, sistem će omogućiti zaposlenima u ovoj ustanovi lakše poslovanje. Naime, ukoliko je sistem korišten od strane veterinara ili medicinske sestre/brata, tada će biti omogućen brz pristup svim relevantim informacijama o pacijentima,  olakšano vršenje evidencije pregleda i potvrđivanja slobodnih termina, efikasniji način komunikacije sa pacijentima,etc. Ukoliko je, pak, sistem korišten od strane prodavača u pet shopu, tada će biti olakšan proces prodaje i sistem će u tom slučaju raditi kao fiskalna kasa.
 
 
-Procesi:
+# Procesi:
 
-Prijava na sistem
+# Prijava na sistem
 
 Korisnik se pomoću odgovarajućeg username-a i passworda loguje na sistem. U zavisnosti od toga koja uloga mu je dodijeljena, pružaju mu se različite opcije, pomoću odgovarajućih formi.
 
-Dodavanje osoblja
+# Dodavanje osoblja
 
 Admin nakon instaliranja sistema dodaje sve potrebne informacije o uposlenima i daje im određene privilegije.
 Registrovanje novih klijenata
