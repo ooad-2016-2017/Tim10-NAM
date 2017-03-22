@@ -1,5 +1,7 @@
 # Tim10-NAM
-                                                               Pet Society
+<p align = "center">
+<img src = "http://logos.wikia.com/wiki/File:Pet-society-logo.png">
+</p>
 Članovi tima:
 
 1. Nađa Žilić
