@@ -80,7 +80,7 @@ Omogućena je komunikacija između uposlenika i klijenata pomoću messengera.
 
 •	Mogućnost prodaje opreme za ljubimce
 
-•	Mogućnost online prodaje
+•	Mogućnost online kupovine 
 
 •	Mogućnost lakše evidencije asortimana pet shopa
 
@@ -98,6 +98,11 @@ Omogućena je komunikacija između uposlenika i klijenata pomoću messengera.
 
 •	Mogućnost fotografisanja ljubimaca
 
+• Pregled zanimljivih statističkih podataka o životinjama
+
+• Mogućnost liječenja više ljubimaca pod istim identifikacijskim brojem vlasnika
+
+
 ## Akteri:
 
 **Administrator**
@@ -114,7 +119,7 @@ Osoba koja radi u pet shopu i vrši prodaju artikala. Vodi evidenciju o stanjima
 
 **Medicinska sestra**
 
-Osoba koja radi u veterinarskom centru. Vrši dodavanje novih klijenata i njihovih ljubimaca, kontroliše zakazivanje termina za preglede.
+Osoba koja radi u veterinarskom centru. Vrši dodavanje novih klijenata i njihovih ljubimaca, kontroliše zakazivanje termina za preglede. 
 
 **Klijent** 
 
