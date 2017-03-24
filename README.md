@@ -30,21 +30,23 @@ Dakle, glavni cilj ovog sistema jeste da omogući klijentima zakazivanje pregled
 
 **Prijava na sistem**
 
-Korisnik se pomoću odgovarajućeg username-a i passworda loguje na sistem. U zavisnosti od toga koja uloga mu je dodijeljena, pružaju mu se različite opcije, pomoću odgovarajućih formi.
+Korisnik se pomoću odgovarajućeg username-a i passworda loguje na sistem. U zavisnosti od toga koja uloga mu je dodijeljena, pružaju mu se različite opcije.
 
 **Dodavanje osoblja**
 
 Admin nakon instaliranja sistema dodaje sve potrebne informacije o uposlenima i daje im određene privilegije.
-Registrovanje novih klijenata
+
+**Registrovanje novih klijenata**
+
 Nakon što se klijent odluči učlaniti u veterinarsku stanicu, medicinska sestra popunjava formular sa potrebim informacijama za identifikaciju korisnika i dodaje ga u bazu podataka. Potom mu se dodjeljuje odgovarajući username, šifra, članska kartica sa identifikacijskim brojem, te mu se na e-mail adresu šalje instalacija softvera.
 
 **Online zakazivanje pregleda**
 
-Da bi klijent zakazao pregled online putem, potrebno je da bude učlanjen. Vrši prijavu na sistem sa podacima koji su mu dodijeljeni prilikom učlanjenja. Otvara se prozor na kojem su prikazani slobodni termini za pregled ljubimaca. Klikom na željeni termin, zahtjev se šalje u veterinsku stanicu, te nakon odobravanja od strane medicinske sestre, se označava kao zauzet i upisuje u raspored veterinara. Da bi verifikacija bila kompletna, 48h prije zakazanog termina klijent dobija poruku kao podsjetnik. Ukoliko ne odgovori na istu, termin se poništava. U suprotnom, termin ostaje zauzet.
+Da bi klijent zakazao pregled online putem, potrebno je da bude učlanjen. Vrši prijavu na sistem sa podacima koji su mu dodijeljeni prilikom učlanjenja. Pojavljuje se interfejs na koje su prikazani slobodni termini za pregled ljubimaca. Klikom na željeni termin, zahtjev se šalje u veterinsku stanicu, te nakon odobravanja od strane medicinske sestre, se označava kao zauzet i upisuje u raspored veterinara. Da bi verifikacija bila kompletna, 48h prije zakazanog termina klijent dobija poruku kao podsjetnik. Ukoliko ne odgovori na istu, termin se poništava. U suprotnom, termin ostaje zauzet.
 
 **Online kupovina**
 
-Da bi klijent vršio online kupovinu, potrebno je da bude učlanjen. Vrši prijavu na sistem sa podacima koji su dodijeljenji prilikom učlanjenja. Otvara se prozor na kojem su prikazani proizvodi koji se nalaze u ponudi. Klijent pritiskom na odgovarajuće proizvode, iste dodaje u košaricu. 
+Da bi klijent vršio online kupovinu, potrebno je da bude učlanjen. Vrši prijavu na sistem sa podacima koji su dodijeljenji prilikom učlanjenja. Pojavljuje se interfejs na kojem su prikazani proizvodi koji se nalaze u ponudi. Klijent pritiskom na odgovarajuće proizvode, iste dodaje u košaricu. 
 Nakon odabira proizvoda, klikom na dugme, otvara se interfejs za unos osnovnih podataka i broja kreditne kartice, nakon čega se vrši  validacija istih. Zatim se ti podaci šalju eksternom sistemu za autorizaciju kartica koji treba da odobri ili odbije transakciju plaćanja.
 
 **Upravljanje zalihama**
@@ -73,7 +75,9 @@ Veterinar bira trenutnog pacijenta koji se nalazi na rasporedu i otvara pripadaj
 
 Da bi medicinska sestra izvršila registraciju ljubimca potrebno je da bude prijavljena na sistem. 
 Medicinska sestra upisuje identifikacijski broj klijenta, nakon čega se otvara prozor u koji upisuje relevantne podatke i fotografiše životinju. Zatim navede podatke spašava u bazu podataka.
-Online komunikacija
+
+**Online komunikacija**
+
 Omogućena je komunikacija između uposlenika i klijenata pomoću messengera.
 
 ## Funkcionalnosti:
