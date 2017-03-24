@@ -125,3 +125,7 @@ Osoba koja radi u veterinarskom centru. Vrši dodavanje novih klijenata i njihov
 
 Osoba koja nakon učlanjivanja, dobija account i koristi aplikaciju za online trgovinu u pet shopu i lakše zakazivanje termina pregleda, odnosno lakšu i bržu komunikaciju sa veterinarom.
 
+**Dostavljač** 
+
+Osoba koja vrši dostavu proizvoda koje klijent naruči online.
+
