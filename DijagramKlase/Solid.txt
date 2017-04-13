@@ -1,0 +1,25 @@
+1. Princip pojedinaène odgovornosti 
+
+Klasa PetSociety "previše zna". Napraviæemo nove klase koje æe preuzeti neke od njenih metoda. Implementirat æemo klasu koja æe voditi brigu o interakciji sa bazom podataka, 
+klasu za registraciju korisnika aplikacije i klasu koja æe izdvojiti administratorske funkcionalnosti. Pored navedenih klasa, implementiraæemo klasu koja omoguæuje lakše
+upravljanje sa vanjskim ureðajem, tj. kamerom (klasa Slika).
+Što se tièe ostalih klasa, one zadovoljavaju navedeni princip.
+
+2. Otvoreno-zatvoreni princip
+
+Sve klase našeg sistema zadovoljavaju ovaj princip, jer smo u prethodnoj taèki implementirali klasu koja æe biti interfejs izmeðu naših klasa i baze podataka, stoga ne postoji
+moguænost kršenja ovog principa.
+
+3. Liskov princip zamjene
+
+S obzirom da svaka od izvedenih klasa implementira i koristi sve metode koje se nalaze u njihovim roditeljskim klasama, ovaj princip je ispoštovan u našem sistemu. 
+
+4. Princip inverzije zavisnosti 
+
+Nijedna klasa ovog sistema nije izvedana iz konkretne klase ili klase za koju postoji moguænost da æe biti modificirana u buduænosti. Jedina roditeljska klasa u sistemu je klasa
+Osoba koja je apstraktna i za koju se znamo da neæe zahtijevati dodatne modifikacijem, stoga zakljuèujemo da je princip ispoštavan.
+
+5. Princip izoliranja interfejsa
+
+Na samom poèetku možemo primijetiti da nijedna klasa u našem sistemu ne predstavlja tzv. "debelu" klasu. Na osnovu uloge koja je dodijeljena korisniku pri registrovanju u sam sistem, 
+nude mu se odgovarajuæi interfejsi i na taj naèin je onemoguæen pristup dijelovima sistema koji nisu relevantni za njegovu ulogu.  
