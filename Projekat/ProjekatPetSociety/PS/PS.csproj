@@ -95,21 +95,21 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Karton.xaml.cs">
-      <DependentUpon>Karton.xaml</DependentUpon>
+    <Compile Include="Formular.xaml.cs">
+      <DependentUpon>Formular.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Med_sestra.xaml.cs">
+      <DependentUpon>Med_sestra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Online_kupovina.xaml.cs">
+      <DependentUpon>Online_kupovina.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registrovanje_ljubimca.xaml.cs">
-      <DependentUpon>Registrovanje_ljubimca.xaml</DependentUpon>
+    <Compile Include="Registracija_klijenta.xaml.cs">
+      <DependentUpon>Registracija_klijenta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Slika.xaml.cs">
-      <DependentUpon>Slika.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Upravljanje_zalihama.xaml.cs">
-      <DependentUpon>Upravljanje_zalihama.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Veterinar.xaml.cs">
-      <DependentUpon>Veterinar.xaml</DependentUpon>
+    <Compile Include="Zakazivanje_pregleda.xaml.cs">
+      <DependentUpon>Zakazivanje_pregleda.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -140,23 +140,23 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Karton.xaml">
+    <Page Include="Formular.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Registrovanje_ljubimca.xaml">
+    <Page Include="Med_sestra.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Slika.xaml">
+    <Page Include="Online_kupovina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Upravljanje_zalihama.xaml">
+    <Page Include="Registracija_klijenta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Veterinar.xaml">
+    <Page Include="Zakazivanje_pregleda.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

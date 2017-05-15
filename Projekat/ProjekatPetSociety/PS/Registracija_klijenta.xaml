@@ -1,0 +1,103 @@
+﻿<Page
+    x:Class="PS.Registracija_klijenta"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="10,15,15,0">
+            <TextBlock Margin="0,15,0,15">Dobro došao/la</TextBlock>
+            <ComboBox HorizontalAlignment="Stretch" PlaceholderText="Izaberite ljubimca" Margin="0,15,0,15">
+                <ComboBoxItem>Ljubimac1</ComboBoxItem>
+                <ComboBoxItem>Ljubimac2</ComboBoxItem>
+            </ComboBox>
+            <Pivot Margin="0,10,0,0" x:Name="rootPivot" HorizontalAlignment="Stretch">
+                <PivotItem Header="Naslovna" HorizontalAlignment="Stretch">
+
+                    <Grid Margin="0,35,0,0" ScrollViewer.VerticalScrollBarVisibility="Visible">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Orientation="Vertical" Name="First" Margin="15,0,15,15" Grid.Row="0" Grid.Column="0">
+                            <TextBlock FontSize="15" Margin="0,0,0,10">Ime:</TextBlock>
+                            <TextBlock FontSize="15" Margin="0,0,0,10">Rasa:</TextBlock>
+                            <TextBlock FontSize="15" Margin="0,0,0,10">Vrsta:</TextBlock>
+
+                        </StackPanel>
+
+                        <StackPanel Name="Second" Grid.Row="0" Grid.Column="1" Margin="15,0,15,15">
+                            <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png"></Image>
+
+                        </StackPanel>
+
+                        <ScrollViewer Name="Third" Grid.Row="1" Grid.Column="0" Margin="0,15,15,15" ScrollViewer.HorizontalScrollBarVisibility="Visible">
+                            <StackPanel>
+                                <CalendarView  HorizontalAlignment="Stretch" ></CalendarView>
+                            </StackPanel>
+                        </ScrollViewer>
+
+                        <StackPanel  Name="Fourth" Grid.Row="1" Grid.Column="1" Margin="15,15,15,15">
+                            <ListView HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                <x:String>Pregledi</x:String>
+                                <x:String>Item1</x:String>
+                                <x:String>Item1</x:String>
+                            </ListView>
+                        </StackPanel>
+
+                    </Grid>
+
+                </PivotItem>
+                <PivotItem Header="Pregled">
+                    <StackPanel Orientation="Vertical" Margin="0,15,0,0">
+                        <ListView BorderBrush="LightGray" BorderThickness="2">
+                            <x:String>Stavka</x:String>
+                            <x:String>Stavka</x:String>
+                            <x:String>Stavka</x:String>
+                        </ListView>
+                        <Button HorizontalAlignment="Right" Margin="0,15,0,0">Posalji zahtjev</Button>
+                        <TextBlock Margin="0,15,0,15">Zakazani termini</TextBlock>
+                        <ListView BorderBrush="LightGray" BorderThickness="2">
+                            <x:String>Termin1</x:String>
+                            <x:String>Termin2</x:String>
+                            <x:String>Termin3</x:String>
+                        </ListView>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="Pet shop">
+                    <StackPanel Orientation="Vertical" Margin="0,15,0,0">
+                        <ListView BorderBrush="LightGray" BorderThickness="2">
+                            <x:String>Stavka</x:String>
+                            <x:String>Stavka</x:String>
+                            <x:String>Stavka</x:String>
+                        </ListView>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Margin="0,15,15,0">Dodaj</Button>
+                            <Button Margin="0,15,0,0">Izbaci</Button>
+                        </StackPanel>
+                        <TextBlock Margin="0,15,0,15">Korpa</TextBlock>
+                        <ListView BorderBrush="LightGray" BorderThickness="2">
+                            <x:String>Termin1</x:String>
+                            <x:String>Termin2</x:String>
+                            <x:String>Termin3</x:String>
+                        </ListView>
+                        <Button Margin="0,15,0,0" HorizontalAlignment="Right">Potvrdi narudžbu</Button>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="E-mail">
+                    <WebView></WebView>
+                </PivotItem>
+            </Pivot>
+        </StackPanel>
+    </Grid>
+</Page>
