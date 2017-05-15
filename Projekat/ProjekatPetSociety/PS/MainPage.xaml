@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="PS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" Margin="0,75,0,0">
+            <Image Stretch="None" HorizontalAlignment="Center" MaxWidth="450" Source="http://vignette1.wikia.nocookie.net/logopedia/images/2/23/Pet-society-logo.png/revision/latest?cb=20110817212915" RelativePanel.AlignTopWithPanel="True"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,75,0,0">
+                <TextBlock Padding="0,0,25,0" VerticalAlignment="Center">Korisnicko ime:</TextBlock>
+                <TextBox HorizontalAlignment="Center" MinWidth="270" MaxWidth="450"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,45">
+                <TextBlock Padding="0,0,70,0" VerticalAlignment="Center">Lozinka:</TextBlock>
+                <PasswordBox HorizontalAlignment="Center" MinWidth="270" MaxWidth="450"/>
+            </StackPanel>
+            <Button HorizontalAlignment="Center">Prijava</Button>
+        </StackPanel>
+    </Grid>
+</Page>
