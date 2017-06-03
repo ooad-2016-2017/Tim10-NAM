@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b6e2e830bc2497a4c956d0a2b73d1337
+timeCreated: 1496506487
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Space Comics
+  fontNames:
+  - Space Comics
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

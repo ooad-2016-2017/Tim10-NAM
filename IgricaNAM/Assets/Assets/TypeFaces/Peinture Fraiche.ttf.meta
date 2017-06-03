@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0551297fb81cf824e990a9de8e49a460
+timeCreated: 1496506328
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Peinture Fraiche
+  fontNames:
+  - Peinture Fraiche
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
