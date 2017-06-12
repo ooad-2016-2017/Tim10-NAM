@@ -1,0 +1,21 @@
+Izvjestaj:
+
+17.03. - Opisivanje teme, razradili funkcionalnosti, mogucnosti i procese sistema.
+
+22.03. - Dodali skice svih formi (koristeci Lumzzy)
+
+24.03. - Dodali Use-Case dijagram
+
+31.03. - Dodali dijagram aktivnosti
+
+13.05. - Kreirali sve xaml forme 
+
+15.05. - Dodali dijagram klasa
+
+15.05. - Dodali dijagram sekvence
+
+04.06. - Implementirali igricu u Unity-u
+
+05.06. - Dodali dijagram komponenti, rasporedjivanja i paketa 
+
+***Napomena*** Svi projektni zadaci su radjeni kolektivno uz prisustvo sva tri clana kolektiva(online ili uzivo)
